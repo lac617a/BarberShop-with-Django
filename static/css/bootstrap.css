@@ -165,18 +165,6 @@ h5{
 	color: #222227;
 	transition: all .3s ease-in-out;
 }
-.widget_whatsapp p::after{
-	content: '';
-	position: absolute;
-	display: inline-block;
-	top: 115px;
-	left: 265px;
-	border-top: 10px solid #222227;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-bottom: 30px solid transparent;
-}
-
 .widget_whatsapp{
 	background-color: #fff;
 	border-radius: 10px;
@@ -187,6 +175,18 @@ h5{
 	padding-top: 10px;
 	font-size: 30px;
 	color: #333;
+}
+.btn-submit{
+	border-radius: 10px;
+	transition: all .3s ease-in-out;
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+	background-color: #fff;
+	border: solid transparent;
+	margin-bottom: 10px;
+}
+.btn-submit:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0 15px rgba(0,0,0,.5);
 }
 .img-fluid{
 	background: url(../img/whatsapp.jpg);
