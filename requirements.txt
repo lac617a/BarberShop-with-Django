@@ -9,6 +9,7 @@ distlib==0.3.0
 distro==1.4.0
 Django==2.2.16
 django-ckeditor==6.0.0
+django-decouple==2.1
 django-dropbox==0.0.2
 django-js-asset==1.2.2
 dropbox==10.4.1
