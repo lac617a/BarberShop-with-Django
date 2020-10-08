@@ -3,7 +3,7 @@ window.addEventListener('load',init)
 function init(){
 	// scroll navbar
 	const nav_fix = document.querySelector('.navbar');
-	const whatsapp = document.getElementById('link-whatsapp');
+	const whatsapp = document.querySelector('.fa-whatsapp');
 	const whatsapp_animate = document.querySelector('#link-whatsapp i')
 	
 	// Loaded Pages
