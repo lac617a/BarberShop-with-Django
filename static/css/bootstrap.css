@@ -306,12 +306,6 @@ ul {
 	.display-none{
 		display: none;
 	}
-	/* .img-fluid{
-		background-image: none;
-	} */
-	.widget_whatsapp p::after{
-		left: 155px;
-	}
 	.d-block{
 		height: 440px;
 	}
